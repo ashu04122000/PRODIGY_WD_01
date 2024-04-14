@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  z-index: 1000; /* Ensure the navigation stays on top of other content */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+section {
+  padding: 50px;
+  height: 1000px; /* Just for demonstration */
+}
+
